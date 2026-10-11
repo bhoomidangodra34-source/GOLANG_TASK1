@@ -208,4 +208,4 @@ router.DELETE("/tasks/:id", deleteTask)
 
 router.Run(":8080")
 ```
-This is the basic CRUD implementation for learning. It uses in-memory storage, accepts client-provided IDs, and doesn't yet validate duplicate IDs or empty titles. Those are good improvements for Q1.3.
+This is the basic CRUD implementation for learning. It uses in-memory storage, accepts client-provided IDs.
